@@ -1,9 +1,14 @@
-# api documentation for  [electron-json-storage (v3.0.4)](https://github.com/jviotti/electron-json-storage)  [![npm package](https://img.shields.io/npm/v/npmdoc-electron-json-storage.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-electron-json-storage) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-electron-json-storage.svg)](https://travis-ci.org/npmdoc/node-npmdoc-electron-json-storage)
+# npmdoc-electron-json-storage
+
+#### api documentation for  [electron-json-storage (v3.0.5)](https://github.com/jviotti/electron-json-storage)  [![npm package](https://img.shields.io/npm/v/npmdoc-electron-json-storage.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-electron-json-storage) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-electron-json-storage.svg)](https://travis-ci.org/npmdoc/node-npmdoc-electron-json-storage)
+
 #### Easily write and read user settings in Electron apps
 
-[![NPM](https://nodei.co/npm/electron-json-storage.png?downloads=true)](https://www.npmjs.com/package/electron-json-storage)
+[![NPM](https://nodei.co/npm/electron-json-storage.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/electron-json-storage)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-electron-json-storage/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-electron-json-storage_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-electron-json-storage/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-electron-json-storage/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-electron-json-storage/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-electron-json-storage/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-electron-json-storage/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-electron-json-storage/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Juan Cruz Viotti",
-        "email": "jviottidc@gmail.com"
+        "name": "Juan Cruz Viotti"
     },
     "bugs": {
         "url": "https://github.com/jviotti/electron-json-storage/issues"
@@ -42,10 +46,10 @@
         "test": "tests"
     },
     "dist": {
-        "shasum": "3b4e3e95e979eb1743edf55174f8daf69416c6fd",
-        "tarball": "https://registry.npmjs.org/electron-json-storage/-/electron-json-storage-3.0.4.tgz"
+        "shasum": "51702d2c25dc5c752c8d4ca50412ee80a57683a4",
+        "tarball": "https://registry.npmjs.org/electron-json-storage/-/electron-json-storage-3.0.5.tgz"
     },
-    "gitHead": "84ae376b4ce0026dc2690a5342f1358628c5f635",
+    "gitHead": "60a34b5915fd3ea6edbd5394f2455ab549f1b8d5",
     "homepage": "https://github.com/jviotti/electron-json-storage",
     "keywords": [
         "electron",
@@ -59,13 +63,11 @@
     "main": "lib/storage.js",
     "maintainers": [
         {
-            "name": "jviotti",
-            "email": "jviottidc@gmail.com"
+            "name": "jviotti"
         }
     ],
     "name": "electron-json-storage",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/jviotti/electron-json-storage.git"
@@ -75,19 +77,9 @@
         "readme": "jsdoc2md --template doc/README.hbs lib/storage.js > README.md",
         "test": "electron-mocha --recursive tests -R spec && electron-mocha --renderer --recursive tests -R spec"
     },
-    "version": "3.0.4"
+    "version": "3.0.5"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module electron-json-storage](#apidoc.module.electron-json-storage)
-
-
-
-# <a name="apidoc.module.electron-json-storage"></a>[module electron-json-storage](#apidoc.module.electron-json-storage)
 
 
 
