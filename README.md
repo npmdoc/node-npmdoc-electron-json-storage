@@ -1,6 +1,6 @@
 # npmdoc-electron-json-storage
 
-#### api documentation for  [electron-json-storage (v3.0.5)](https://github.com/jviotti/electron-json-storage)  [![npm package](https://img.shields.io/npm/v/npmdoc-electron-json-storage.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-electron-json-storage) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-electron-json-storage.svg)](https://travis-ci.org/npmdoc/node-npmdoc-electron-json-storage)
+#### basic api documentation for  [electron-json-storage (v3.0.5)](https://github.com/jviotti/electron-json-storage)  [![npm package](https://img.shields.io/npm/v/npmdoc-electron-json-storage.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-electron-json-storage) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-electron-json-storage.svg)](https://travis-ci.org/npmdoc/node-npmdoc-electron-json-storage)
 
 #### Easily write and read user settings in Electron apps
 
@@ -77,7 +77,8 @@
         "readme": "jsdoc2md --template doc/README.hbs lib/storage.js > README.md",
         "test": "electron-mocha --recursive tests -R spec && electron-mocha --renderer --recursive tests -R spec"
     },
-    "version": "3.0.5"
+    "version": "3.0.5",
+    "bin": {}
 }
 ```
 
